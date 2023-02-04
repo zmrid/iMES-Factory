@@ -58,7 +58,7 @@
  - 商业版提供技术支持，开源版只有开源交流QQ群
 
 ## 图片预览
-![输入图片说明](Image/1.jpg)
+![输入图片说明](https://github.com/zmrid/imes-factory/blob/main/Image/1.jpg)
 ![输入图片说明](Image/2.jpg)
 ![输入图片说明](Image/3.jpg)
 ![输入图片说明](Image/4.jpg)
