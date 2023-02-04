@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iMES.Core\iMES.Core.csproj" />
+    <ProjectReference Include="..\iMES.Custom\iMES.Custom.csproj" />
+    <ProjectReference Include="..\iMES.Entity\iMES.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,585 @@
+.mes-aside {
+  height: 100%;
+  position: absolute;
+  float: left;
+  overflow: hidden;
+}
+.mes-menu{
+  border: 0 !important;
+}
+.mes-aside .tac {
+  text-align: left;
+}
+
+.mes-aside .header {
+  text-align: center;
+  position: absolute;
+  height: 60px;
+  position: relative;
+  line-height: 60px;
+}
+.mes-aside .mes-menu {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  bottom: 0;
+  background: white;
+  border-right: 1px solid #e3e3e3;
+}
+
+.mes-aside .mes-menu ::v-deep(.ivu-menu) {
+  text-align: left;
+  position: unset;
+  width: 100% !important;
+}
+.mes-aside .mes-menu ::v-deep(.is-horizontal) {
+  display: none !important;
+}
+.mes-aside .mes-menu ::v-deep(.is-vertical) {
+  width: 2px;
+  right: -1px;
+}
+
+.mes-container {
+  min-width: 800px;
+  right: 0;
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.mes-container .mes-path {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  border-bottom: 1px solid #eee;
+}
+.mes-container .mes-path span {
+  position: relative;
+  margin-right: 10px;
+  color: #969696;
+}
+
+.mes-header {
+  height: 61px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+.mes-main {
+  border-left: 1px solid #eee;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 95px;
+  margin: 0;
+  overflow: auto;
+}
+
+.header {
+  padding: 5px;
+}
+.header img {
+  height: 100%;
+  margin-right: 25px;
+}
+.header-info {
+  padding-right: 20px;
+  display: inline-block;
+  // position: absolute;
+  height: 100%;
+}
+.header-info > div {
+  float: left;
+  height: 100%;
+}
+.user-header {
+  background: white;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  margin-right: 0px;
+  top: 4px;
+  left: 7px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+}
+.project-name {
+  line-height: 60px;
+  padding: 0 50px 0 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.header-text {
+  vertical-align: middle;
+  height: 100%;
+  // position: absolute;
+  flex: 1;
+  text-align: left;
+  font-size: 15px;
+  left: 21px;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+.mes-header .user {
+  text-align: left;
+  padding: 12px;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  span:last-child {
+    font-size: 12px;
+  }
+}
+.mes-header .settings {
+  padding-top: 10px;
+  color: #d4d2d2;
+}
+.mes-header .user span {
+  position: relative;
+}
+.header-info:hover {
+  cursor: pointer;
+}
+.header-navigation {
+  cursor: pointer;
+  box-shadow: none;
+  border-bottom: 1px solid #eee;
+  height: 34px;
+  /* overflow: hidden; */
+  line-height: 35px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  position: relative;
+  z-index: 900;
+  font-weight: initial;
+  margin-top: -1px;
+}
+.el-tabs--border-card {
+  border: none;
+}
+.header-navigation ::v-deep(.el-tabs__item) {
+  height: 34px;
+  font-size: 14px;
+  line-height: 34px;
+  padding-bottom: 6px;
+  color: #525252 !important;
+  position: relative;
+  margin: 0 4px;
+  border: 1px solid #e2e2e2;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  // border-bottom: 0px;
+}
+.header-navigation ::v-deep(.el-tabs__item.is-active) {
+  color: #1a81ea !important;
+}
+.header-navigation ::v-deep(.el-tabs__nav-prev),
+.header-navigation ::v-deep(.el-tabs__nav-next) {
+  line-height: 35px;
+  padding-left: 4px;
+}
+
+.mes-header .user span:first-child {
+  font-size: 15px;
+  font-weight: bolder;
+}
+.h-link {
+  line-height: 59px;
+}
+.h-link a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0px 15px;
+  /* height: 60px; */
+  display: inline-block;
+}
+
+img[src=''],
+img:not([src]) {
+  opacity: 0;
+}
+
+//黑色
+.mes-theme-dark {
+  .header {
+    background: #101010;
+  }
+  .header-text {
+    color: white;
+  }
+  .mes-header {
+    background-color: #272929;
+  }
+  .h-link a:hover {
+    background: #0c0202;
+  }
+  a {
+    color: #f2f2f2;
+  }
+  .h-link a:hover {
+    color: #dfdfdf;
+  }
+  .h-link .actived {
+    border-bottom: 2px solid white;
+  }
+  .h-link .actived a {
+    color: white !important;
+  }
+  .mes-header .user {
+    color: #ececec;
+  }
+  .mes-header .settings {
+    color: #d4d2d2;
+  }
+  .mes-aside .mes-menu {
+    background: black;
+  }
+  .topselect {
+    ::v-deep {
+      .el-input__wrapper {
+        background: #000000 !important;
+      }
+    }
+  }
+}
+
+.mes-theme-white .mes-aside ::v-deep(.mes-el-menu-item) {
+  background: #2e333b;
+  color: white;
+}
+.mes-theme-dark .mes-aside ::v-deep(.mes-menu .el-submenu) {
+  background: black;
+}
+.mes-theme-dark .mes-aside ::v-deep(.mes-menu .el-sub-menu__title *) {
+  color: #d6d6d6;
+}
+.mes-theme-dark .mes-aside ::v-deep(.mes-el-menu-item .el-menu-item) {
+  color: #eee;
+  background: #1f1f1f;
+}
+.mes-theme-dark .mes-aside ::v-deep(.mes-el-menu-item .el-menu-item.is-active),
+.mes-theme-dark .mes-aside ::v-deep(.menu-item-lv1) {
+  background: black;
+}
+
+.mes-theme-dark .mes-aside ::v-deep(.menu-item-lv1) {
+  background: black;
+  color: #d6d6d6;
+}
+
+.mes-theme-dark .mes-aside ::v-deep(.mes-el-menu-item .el-menu-item:hover) {
+  background: black;
+}
+.mes-theme-dark .mes-aside ::v-deep(.el-sub-menu__title) {
+  background-color: black;
+}
+.mes-theme-dark .mes-aside ::v-deep(.el-sub-menu__title:hover) {
+  background-color: rgb(25, 25, 25);
+}
+.mes-theme-dark .mes-aside ::v-deep(.el-sub-menu__title:hover *) {
+  color: white;
+}
+
+.mes-theme-red,
+.mes-theme-red2 {
+  .mes-header {
+    background-color: rgb(237, 64, 20);
+  }
+  .header-text {
+    color: #dcdfe6;
+  }
+  .h-link a:hover {
+    background: #d71212;
+  }
+  .h-link .actived {
+    border-bottom: 2px solid white;
+  }
+
+  .h-link a,
+  .h-link .actived a,
+  .mes-header .settings,
+  .mes-header .user {
+    color: white;
+  }
+
+  .mes-header .header-text {
+    color: #fbfbfb;
+  }
+}
+
+.mes-theme-red {
+  .header {
+    background-color: rgb(237, 64, 20);
+  }
+}
+.mes-theme-red2 {
+  .header {
+    background-color: #a90000;
+  }
+}
+
+.mes-theme-orange,
+.mes-theme-orange2 {
+  .header-text {
+    color: #dcdfe6;
+  }
+  .mes-header {
+    background-color: rgb(255, 153, 0);
+  }
+
+  .h-link a:hover {
+    background: #c97901;
+  }
+  .h-link .actived {
+    border-bottom: 2px solid white;
+  }
+
+  .h-link a,
+  .h-link .actived a,
+  .mes-header .settings,
+  .mes-header .user {
+    color: white;
+  }
+  .mes-header .header-text {
+    color: #fbfbfb;
+  }
+}
+.mes-theme-orange {
+  .header {
+    background: rgb(255, 153, 0);
+  }
+}
+.mes-theme-orange2 {
+  .header {
+    background-color: rgb(232, 141, 5);
+  }
+}
+
+//绿色
+.mes-theme-green,
+.mes-theme-green2 {
+  .header-text {
+    color: #dcdfe6;
+  }
+  .mes-header {
+    background-color: rgb(25, 190, 107);
+  }
+
+  .h-link a:hover {
+    background: #329103;
+  }
+  .h-link .actived {
+    border-bottom: 2px solid white;
+  }
+
+  .h-link a,
+  .h-link .actived a,
+  .mes-header .settings,
+  .mes-header .user {
+    color: white;
+  }
+
+  .mes-header .header-text {
+    color: #fbfbfb;
+  }
+}
+.mes-theme-green {
+  .header {
+    background: rgb(25, 190, 107);
+  }
+}
+.mes-theme-green2 {
+  .header {
+    background-color: rgb(1, 158, 79);
+  }
+}
+
+//蓝色
+.mes-theme-blue,
+.mes-theme-blue2 {
+  .header-text {
+    color: #dcdfe6;
+  }
+  .mes-header {
+    background-color: rgb(45, 140, 240);
+  }
+
+  .h-link a:hover {
+    background: #0170e3;
+  }
+  .h-link .actived {
+    border-bottom: 2px solid white;
+  }
+
+  .h-link a,
+  .h-link .actived a,
+  .mes-header .settings,
+  .mes-header .user {
+    color: white;
+  }
+  .mes-header .header-text {
+    color: #fbfbfb;
+  }
+}
+.mes-theme-blue {
+  .header {
+    background-color: rgb(45, 140, 240);
+  }
+}
+.mes-theme-blue2 {
+  .header {
+    background-color: rgb(0, 104, 214);
+  }
+}
+
+//白色
+.mes-theme-white {
+  .header {
+    background-color: #434956;
+  }
+  .h-link a:hover {
+    background: #eeeeee;
+  }
+  .h-link a {
+    color: #211f1f;
+  }
+  .topselect {
+    ::v-deep {
+      .el-input__wrapper {
+        background: #434956 !important;
+      }
+    }
+  }
+  .header-navigation {
+    // box-shadow: -7px 11px 10px -13px #678aa7;
+    border-bottom: 1px solid #eee;
+    height: 32px;
+    overflow: hidden;
+    line-height: 32px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    position: relative;
+    z-index: 900;
+    font-weight: 400;
+  }
+ 
+}
+.mes-theme-white .project-name{
+  color: #505050;
+}
+.mes-theme-white
+.mes-aside
+::v-deep(.mes-el-menu-item .el-menu-item.is-active),
+.mes-theme-white .mes-aside ::v-deep(.menu-item-lv1) {
+background: #353941;
+}
+
+.mes-theme-white .mes-aside ::v-deep(.menu-item-lv1) {
+background: #353941;
+color: #d6d6d6;
+}
+
+.mes-theme-white .mes-aside ::v-deep(.mes-el-menu-item .el-menu-item:hover) {
+background: #353941;
+}
+.mes-theme-white .mes-aside ::v-deep(.el-sub-menu__title) {
+background-color: #353941;
+}
+.mes-theme-white .mes-aside ::v-deep(.el-sub-menu__title:hover) {
+background-color: rgb(47, 46, 46);
+}
+.mes-theme-white .mes-aside ::v-deep(.el-sub-menu__title),
+.mes-theme-white .mes-aside ::v-deep(.el-menu-item),
+.mes-theme-white .mes-aside ::v-deep(.el-sub-menu__title:hover *) {
+color: #bababa;
+}
+
+// .mes-theme-white .mes-aside ::v-deep(.mes-el-menu-item) {
+//   background: #363e4f;
+//   color: white;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.mes-menu .el-submenu),
+// .mes-theme-white .mes-aside ::v-deep(.menu-item-lv1) {
+//   background: #515a6e;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.mes-menu) {
+//   background: #515a6e;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.mes-menu .el-sub-menu__title *),
+// .mes-theme-white .mes-aside ::v-deep(.menu-item-lv1 *) {
+//   color: #d6d6d6;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.mes-el-menu-item .el-menu-item) {
+//   color: #eee;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.mes-el-menu-item .el-menu-item.is-active),
+// .mes-theme-white .mes-aside ::v-deep(.menu-item-lv1.is-active) {
+//   background: #59647b;
+//   color: #fff;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.mes-el-menu-item .el-menu-item:hover) {
+//   background: #6a758c;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.el-sub-menu__title:hover) {
+//   background-color: #525865;
+// }
+// .mes-theme-white .mes-aside ::v-deep(.el-sub-menu__title:hover *) {
+//   color: white;
+// }
+
+// .mes-theme-red ::v-deep(.el-menu-item.is-active),
+// .mes-theme-red2 ::v-deep(.el-menu-item.is-active)
+// {
+//   background-color: #d71212;
+// }
+// .mes-theme-blue ::v-deep(.el-menu-item.is-active),
+// .mes-theme-blue2 ::v-deep(.el-menu-item.is-active)
+// {
+//   background-color: #2d8cf0;
+// }
+// .mes-theme-orange ::v-deep(.el-menu-item.is-active),
+// .mes-theme-orange2 ::v-deep(.el-menu-item.is-active)
+// {
+//   background-color: #ff9900;
+// }
+
+// .mes-theme-green ::v-deep(.el-menu-item.is-active),
+// .mes-theme-green2 ::v-deep(.el-menu-item.is-active)
+// {
+//   background-color: #19be6b;
+// }
+
+.theme-selector {
+  height: 100%;
+  padding-left: 16px;
+  .item {
+    cursor: pointer;
+    width: 97%;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    border: 1px solid #d4d2d2;
+    float: left;
+    margin-right: 13px;
+  }
+}
+
+.collapse-menu {
+  font-size: 21px;
+  color: #fff;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+}
