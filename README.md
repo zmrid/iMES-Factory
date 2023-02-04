@@ -83,7 +83,7 @@
 ```
 如果对您有帮助，请点击右上角⭐Star关注或扫码捐赠，感谢支持开源！
 ```
-<img src="https://gitee.com/ZM-Rid/i-mes-factory-housekeeper/blob/master/Image/pay.png"/>
+<img src="https://wechat.625sc.com:8891/Image/pay.png"/>
 
 
 
