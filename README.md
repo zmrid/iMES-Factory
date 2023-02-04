@@ -79,6 +79,11 @@
 -  （3）输入http://localhost:8080访问（本地超级管理员帐号：admin 密码:123456）
 - 详细文档查看：http://v2.volcore.xyz/document/guide
 
+## 🎀捐赠支持
+```
+如果对您有帮助，请点击右上角⭐Star关注或扫码捐赠，感谢支持开源！
+```
+<img src="https://gitee.com/ZM-Rid/i-mes-factory-housekeeper/blob/master/Image/pay.png"/>
 
 
 
