@@ -16,6 +16,9 @@
  - 设备管理【设备类型设置，设备台账，点检保养项目，点检保养计划，维修单，点检保养工单】
  - 看板管理【车间生产管控看板，工单执行进度看板】
 
+## 商业版亮点：
+- 生产管理，模版打印，Excel模版导出，自定义实体扩展，移动端精美设计，大屏设计等功能。并且提供技术支持
+
 ## 框架预览
  - 框架内置了大量的通用组件可直接使用,并内置了基于本框架定制开发的代码生成器，尽量避免重复性代码编写。
  - 框架不仅仅是快速开发，更多的是倾向于业务代码扩展的编写与代码规范。
@@ -24,7 +27,9 @@
  - 商业版演示地址：http://imes.625sc.com
  - 开源版演示地址：http://imesopen.625sc.com
  - 帐号：admin密码：123456
- - gitee码云：https://gitee.com/ZM-Rid/i-mes-factory-housekeeper
+ - gitee码云：https://gitee.com/ZM-Rid/i-mes-factory-housekeeper 
+ - github地址：https://github.com/zmrid/imes-factory
+
 
 ## 框架核心
  - iMES工厂管家产品基于优秀的[Vue.NetCore](https://gitee.com/x_discoverer/Vue.NetCore)开发
