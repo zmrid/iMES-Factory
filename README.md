@@ -58,15 +58,15 @@
  - 商业版提供技术支持，开源版只有开源交流QQ群
 
 ## 图片预览
-![输入图片说明](https://github.com/zmrid/imes-factory/blob/main/Image/1.jpg)
-![输入图片说明](Image/2.jpg)
-![输入图片说明](Image/3.jpg)
-![输入图片说明](Image/4.jpg)
-![输入图片说明](Image/5.jpg)
-![输入图片说明](Image/6.png)
-![输入图片说明](Image/7.png)
-![输入图片说明](Image/8.jpg)
-![输入图片说明](Image/9.png)
+![Image/1.jpg](https://wechat.625sc.com:8891/Image/1.jpg)
+![输入图片说明](https://wechat.625sc.com:8891/Image/2.jpg)
+![输入图片说明](https://wechat.625sc.com:8891/Image/3.jpg)
+![输入图片说明](https://wechat.625sc.com:8891/Image/4.jpg)
+![输入图片说明](https://wechat.625sc.com:8891/Image/5.jpg)
+![输入图片说明](https://wechat.625sc.com:8891/Image/6.png)
+![输入图片说明](https://wechat.625sc.com:8891/Image/7.png)
+![输入图片说明](https://wechat.625sc.com:8891/Image/8.jpg)
+![输入图片说明](https://wechat.625sc.com:8891/Image/9.png)
 
 ## 项目启动与上手
 - 运行前先看后台appsettings.json配置属性说明；(注意修改DbType属性，修改为自己使用的数据库,数据库脚本在DB文件夹下)
