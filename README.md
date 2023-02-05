@@ -32,7 +32,6 @@
 
 
 ## 框架核心
- - iMES工厂管家产品基于优秀的[Vue.NetCore](https://gitee.com/x_discoverer/Vue.NetCore)开发
  - 快速开发(基础功能全部由代码生成器生成)
  - 支持前端、后台自定义业务代码扩展,后台提供了大量常用扩展与通用类
  - 前端、后台提供了近300个扩展方法与属性,开发人员可在此功能上编写扩展自定义业务代码
@@ -77,7 +76,6 @@
 -  （1）(run.bat如果闪退,说明环境没配置好，请使用cmd切换至 ../iMES.Vue目录下执行npm run dev看异常信息)
 -  （2）使用cmd命令切换到../iMES.Vue目录下执行npm cache clear --force或者安装node.js版本14.15.1
 -  （3）输入http://localhost:8080访问（本地超级管理员帐号：admin 密码:123456）
-- 详细文档查看：http://v2.volcore.xyz/document/guide
 
 ## 🎀捐赠支持
 ```
