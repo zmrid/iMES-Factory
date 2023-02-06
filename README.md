@@ -27,7 +27,7 @@
  - 商业版演示地址：http://imes.625sc.com
  - 开源版演示地址：http://imesopen.625sc.com
  - 帐号：admin密码：123456
- - gitee码云：https://gitee.com/ZM-Rid/i-mes-factory-housekeeper 
+ - gitee码云：https://gitee.com/ZM-Rid/imes 
  - github地址：https://github.com/zmrid/imes-factory
 
 
