@@ -267,8 +267,8 @@ export default defineComponent({
     ]);
     const links = ref([
       {
-        text: "官方网站",
-        path: "http://www.625sc.com/",
+        text: "亮点说明",
+        path: "https://www.625sc.com/imes/313.html",
         id: -3,
       },
       { text: "官网介绍", path: "https://www.625sc.com/imes/", id: -3 },
@@ -279,7 +279,7 @@ export default defineComponent({
       },
       {
         text: "开源版本",
-        path: "https://gitee.com/ZM-Rid/i-mes-factory-housekeeper",
+        path: "https://gitee.com/ZM-Rid/imes",
         id: -2,
       },
       { text: "个人中心", path: "/UserInfo", id: -1, icon: "el-icon-s-custom" },
