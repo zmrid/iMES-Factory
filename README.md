@@ -24,6 +24,8 @@
  - 框架不仅仅是快速开发，更多的是倾向于业务代码扩展的编写与代码规范。
  - 如果有什么问题或建议，提issue或作者QQ/微信：514224717
  - QQ群：724346134
+ - 官方网站：https://www.625sc.com
+ - 介绍视频：https://www.bilibili.com/video/BV1KY4y1d7EC/
  - 商业版演示地址：https://imes.625sc.com
  - 开源版演示地址：https://imesopen.625sc.com
  - 帐号：admin密码：123456
