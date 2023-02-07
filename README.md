@@ -24,8 +24,8 @@
  - 框架不仅仅是快速开发，更多的是倾向于业务代码扩展的编写与代码规范。
  - 如果有什么问题或建议，提issue或作者QQ/微信：514224717
  - QQ群：724346134
- - 商业版演示地址：http://imes.625sc.com
- - 开源版演示地址：http://imesopen.625sc.com
+ - 商业版演示地址：https://imes.625sc.com
+ - 开源版演示地址：https://imesopen.625sc.com
  - 帐号：admin密码：123456
  - gitee码云：https://gitee.com/ZM-Rid/imes 
  - github地址：https://github.com/zmrid/imes-factory
