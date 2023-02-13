@@ -314,6 +314,10 @@ let viewgird = [
         path: '/Quality_OutCheck',
         name: 'Quality_OutCheck',
         component: () => import('@/views/quality/quality/Quality_OutCheck.vue')
+    }    ,{
+        path: '/Base_DesktopMenu',
+        name: 'Base_DesktopMenu',
+        component: () => import('@/views/custom/custom/Base_DesktopMenu.vue')
     }]
 
 export default viewgird

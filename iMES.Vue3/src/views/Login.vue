@@ -22,8 +22,8 @@
           <p>手机APP移动端管理，无需电脑</p>
           <p>演示账号：admin 密码:123456</p>
           <div style="margin-top: 30px" class="link">
-            <a href="http://www.625sc.com/" target="_blank">
-              <span>官网</span></a
+            <a href="https://www.625sc.com/imes/313.html" target="_blank">
+              <span>亮点介绍</span></a
             >
             <a href="https://www.625sc.com/imes/" target="_blank">
               <span>项目介绍</span></a
