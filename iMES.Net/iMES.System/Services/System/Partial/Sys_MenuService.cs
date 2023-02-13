@@ -271,6 +271,7 @@ namespace iMES.System.Services
             CacheContext.Add(_menuCacheKey, DateTime.Now.ToString("yyyyMMddHHMMssfff"));
             return webResponse.OK("删除成功");
         }
+      
         /// <summary>
         /// 编辑菜单时，获取菜单信息
         /// </summary>
@@ -291,6 +292,33 @@ namespace iMES.System.Services
                     p.Icon,
                     p.Enable,
                     // 2022.03.26增移动端加菜单类型
+                    MenuType = p.MenuType ?? 0,
+                    p.CreateDate,
+                    p.Creator,
+                    p.TableName,
+                    p.ModifyDate
+                }).FirstOrDefault();
+            return sysMenu;
+        }
+        /// <summary>
+        /// 根据菜单Url获取菜单信息
+        /// </summary>
+        /// <param name="menuId"></param>
+        /// <returns></returns>
+        public async Task<object> GetMenuItem(int menuId)
+        {
+            var sysMenu = (await base.repository.FindAsync(x => x.Menu_Id == menuId))
+                .Select(
+                p => new
+                {
+                    p.Menu_Id,
+                    p.ParentId,
+                    p.MenuName,
+                    p.Url,
+                    p.Auth,
+                    p.OrderNo,
+                    p.Icon,
+                    p.Enable,
                     MenuType = p.MenuType ?? 0,
                     p.CreateDate,
                     p.Creator,

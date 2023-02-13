@@ -4,6 +4,8 @@ using iMES.Core.Enums;
 using iMES.Core.Filters;
 using iMES.Entity.DomainModels;
 using iMES.System.IServices;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace iMES.System.Controllers
 {
@@ -27,7 +29,7 @@ namespace iMES.System.Controllers
             return Json(await _service.GetMenu());
         }
 
-        [HttpPost, Route("getTreeItem")]
+        [HttpGet,HttpPost, Route("getTreeItem")]
         [ApiActionPermission("Sys_Menu", "1", ActionPermissionOptions.Search)]
         public async Task<IActionResult> GetTreeItem(int menuId)
         {
@@ -53,6 +55,11 @@ namespace iMES.System.Controllers
         {
             return Json(await Service.DelMenu(menuId));
         }
-
+        [HttpGet,HttpPost, Route("getTreeItemById")]
+        [ApiActionPermission("Sys_Menu", "1", ActionPermissionOptions.Search)]
+        public async Task<IActionResult> GetTreeItemByUrl(int menuId)
+        {
+            return JsonNormal(await _service.GetMenuItem(menuId));
+        }
     }
 }

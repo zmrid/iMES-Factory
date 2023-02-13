@@ -21,6 +21,8 @@ namespace iMES.System.IServices
 
 
         Task<object> GetTreeItem(int menuId);
+
+        Task<object> GetMenuItem(int menuId);
     }
 }
 

@@ -192,6 +192,7 @@ namespace iMES.System.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet, Route("ExportPDF")]
+        [Obsolete]
         public string ExportPDF()
         {
             var titleStyle = TextStyle.Default.FontSize(36).SemiBold().FontColor(Colors.Blue.Medium);
