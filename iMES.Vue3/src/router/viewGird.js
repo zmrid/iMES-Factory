@@ -68,11 +68,17 @@ let viewgird = [
     }    ,{
         path: '/Base_ProcessLine',
         name: 'Base_ProcessLine',
-        component: () => import('@/views/custom/custom/Base_ProcessLine.vue')
+        component: () => import('@/views/custom/custom/Base_ProcessLine.vue'),
+		meta:{
+            keepAlive:false
+        }
     }    ,{
         path: '/Base_ProcessLineList',
         name: 'Base_ProcessLineList',
-        component: () => import('@/views/custom/custom/Base_ProcessLineList.vue')
+        component: () => import('@/views/custom/custom/Base_ProcessLineList.vue'),
+		meta:{
+            keepAlive:false
+        }
     }    ,{
         path: '/Base_MeritPay',
         name: 'Base_MeritPay',
