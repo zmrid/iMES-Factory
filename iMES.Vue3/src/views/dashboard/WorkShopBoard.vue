@@ -45,14 +45,14 @@
         endDate: "",
         topColor: [
             {
-                "ItemName": "车间生产管控",
-                "Background": "#f2b458",
-                "URL": "http://board.625sc.com:9095/index.html#/aj/bP3fTAG8"
+              "ItemName": "车间生产管控",
+              "Background": "#f2b458",
+              "URL": "http://116.204.79.68:9095/index.html#/aj/4dZChFrB"
             },
             {
-                "ItemName": "工单执行进度",
-                "Background": "rgb(45, 183, 245)",
-                "URL": "http://board.625sc.com:9095/index.html#/aj/2kEYF9UY"
+              "ItemName": "工单执行进度",
+              "Background": "rgb(45, 183, 245)",
+              "URL": "http://116.204.79.68:9095/index.html#/aj/0WSQnwFm"
             },
             {
                 "ItemName": "待添加",
