@@ -79,7 +79,7 @@ namespace iMES.Custom.Services
             UpdateOnExecuting = (Base_WorkShop workShop, object addList, object updateList, List<object> delKeys) =>
             {
                 //如果返回false,后面代码不会再执行
-                if (repository.Exists(x => x.WorkShopCode == workShop.WorkShopCode))
+                if (repository.Exists(x => x.WorkShopCode == workShop.WorkShopCode && x.WorkShopId != workShop.WorkShopId))
                 {
                     return webResponse.Error("车间编号已存在");
                 }
