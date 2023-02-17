@@ -107,7 +107,7 @@
                 this.http.post('/api/Cal_Holiday/getPageData', param, true).then((result) => {
                     result.rows.forEach(theDay => {
                         var timearr = theDay.TheDay.replace(" ", ":").replace(/\:/g, "-").split("-");
-                        var timestr = timearr[0] + "-" + Number(timearr[1]) + "-" + timearr[2];
+                        var timestr = timearr[0] + "-" + timearr[1] + "-" + timearr[2];
                         if (theDay.HolidayType == 'HOLIDAY') {
                             this.holidayList.push(timestr);
                         } else {
