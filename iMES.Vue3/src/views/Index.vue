@@ -271,6 +271,11 @@ export default defineComponent({
         path: "https://www.625sc.com/imes/313.html",
         id: -3,
       },
+      {
+        text: "文档介绍",
+        path: "https://www.625sc.com/imes/324.html",
+        id: -2,
+      },
       { text: "官网介绍", path: "https://www.625sc.com/imes/", id: -3 },
       {
         text: "视频介绍",

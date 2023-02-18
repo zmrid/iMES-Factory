@@ -26,6 +26,7 @@
  - QQ群：724346134
  - 官方网站：https://www.625sc.com
  - 介绍视频：https://www.bilibili.com/video/BV1KY4y1d7EC/
+ - 文档介绍：https://www.625sc.com/imes/324.html
  - 商业版演示地址：https://imes.625sc.com
  - 开源版演示地址：https://imesopen.625sc.com
  - 帐号：admin密码：123456
