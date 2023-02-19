@@ -4,9 +4,11 @@
       <div class="order-title">
         <h2>快捷菜单</h2>
       </div>
-      <div data-v-542f4644 class="ivu-row" style="padding: 15px; background: white">
+      <div data-v-542f4644  style="padding: 15px; background: white;display: flex;
+      flex-wrap: wrap;
+      width: 100%;">
         <div v-for="item in topMenu" :key="item.MenuName" class="ivu-col ivu-col-span-6"
-          style="padding-left: 8px; padding-right: 8px"  @click="openUrl(item)">
+          style="padding-left: 8px;padding-right: 8px;padding-top: 8px;  width:16.6%;"  @click="openUrl(item)">
           <div data-v-542f4644 class="ivu-card" :style="{ background: item.Color }">
             <div class="icon-left">
               <i class="el-icon-wallet" />
