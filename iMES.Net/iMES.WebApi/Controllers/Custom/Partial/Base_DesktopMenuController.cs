@@ -37,7 +37,7 @@ namespace iMES.Custom.Controllers
         [Route("getDesktopMenu"), HttpGet]
         public JsonResult GetDesktopMenu()
         {
-            string sql = " select top 8 * from Base_DesktopMenu where Enable=1 order by CreateDate desc ";
+            string sql = " select  * from Base_DesktopMenu where Enable=1 order by CreateDate desc ";
             List<Base_DesktopMenu> list = DBServerProvider.SqlDapper.QueryList<Base_DesktopMenu>(sql, new { });
             return JsonNormal(list);
         }
