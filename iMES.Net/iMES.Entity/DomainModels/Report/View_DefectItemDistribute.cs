@@ -13,7 +13,7 @@ using iMES.Entity.SystemModels;
 
 namespace iMES.Entity.DomainModels
 {
-    [Entity(TableCnName = "不良品项分布",TableName = "View_DefectItemDistribute")]
+    [Entity(TableCnName = "不良品项分布",TableName = "View_DefectItemDistribute",DBServer = "SysDbContext")]
     public partial class View_DefectItemDistribute:SysEntity
     {
         /// <summary>
@@ -29,8 +29,9 @@ namespace iMES.Entity.DomainModels
        ///时间
        /// </summary>
        [Display(Name ="时间")]
-       [Column(TypeName="varchar")]
-       public DateTime? CreateDate { get; set; }
+       [MaxLength(10)]
+       [Column(TypeName="varchar(10)")]
+       public string CreateDate { get; set; }
 
        /// <summary>
        ///不良品项编号

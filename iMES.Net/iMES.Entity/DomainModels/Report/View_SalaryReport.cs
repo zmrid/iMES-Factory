@@ -29,8 +29,8 @@ namespace iMES.Entity.DomainModels
        ///报工时间
        /// </summary>
        [Display(Name ="报工时间")]
-       [Column(TypeName="varchar")]
-       public DateTime? ReportDate { get; set; }
+       [Column(TypeName="varchar(10)")]
+       public string ReportDate { get; set; }
 
        /// <summary>
        ///生产人员

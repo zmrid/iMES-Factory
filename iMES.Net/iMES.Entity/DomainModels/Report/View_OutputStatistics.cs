@@ -20,8 +20,9 @@ namespace iMES.Entity.DomainModels
        ///报工日期
        /// </summary>
        [Display(Name ="报工日期")]
-       [Column(TypeName="varchar")]
-       public DateTime? CreateDate { get; set; }
+       [MaxLength(100)]
+       [Column(TypeName="varchar(100)")]
+       public string CreateDate { get; set; }
 
        /// <summary>
        ///工单计划数
