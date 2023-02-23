@@ -46,7 +46,7 @@
  - 如果能上手框架，可以体会到不用996,更不用掉头发的感觉^_^
 
 ## 框架开发依赖环境
- - 后台：VS2019、vs2022 、.NetCore3.1 、EFCore3.1、JWT、Dapper、SignalR、Quartz.Net、Autofac、SqlServer2016、Redis
+ - 后台：VS2019、vs2022 、.NetCore3.1 、EFCore3.1、JWT、Dapper、SignalR、Quartz.Net、Autofac、SqlServer2016[MySQL]、Redis
  - 前端：VsCode、vue3（需要安装nodejs)、vuex、axios、promise、element ui、element plus
 
 ## 开源版和商业版区别
