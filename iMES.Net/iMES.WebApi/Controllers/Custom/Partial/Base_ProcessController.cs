@@ -79,8 +79,8 @@ namespace iMES.Custom.Controllers
         [AllowAnonymous]
         public JsonResult GetAppHomeProcessTop5()
         {
-            string woSql = @" SELECT TOP 5   [ProcessName] name, SUM([PlanQty]) data
-                                         FROM[iMES].[dbo].[Production_WorkOrderList]  GROUP BY ProcessName ";
+            string woSql = @" SELECT  ProcessName name, SUM(PlanQty) data
+                                         FROM Production_WorkOrderList  GROUP BY ProcessName ";
             List<BoardEntity> list = DBServerProvider.SqlDapper.QueryList<BoardEntity>(woSql, new { });
             return JsonNormal(list);
         }

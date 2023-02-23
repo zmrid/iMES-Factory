@@ -38,7 +38,7 @@ namespace iMES.System.Controllers
         [Route("getVersionInfo"), HttpGet]
         public JsonResult GetVersionInfo()
         {
-            string sql = " select top 8 * from Sys_VersionInfo order by CreateDate desc ";
+            string sql = " select  * from Sys_VersionInfo order by CreateDate desc ";
             List<Sys_VersionInfo> list = DBServerProvider.SqlDapper.QueryList<Sys_VersionInfo>(sql, new { });
             return Json(list);
         }
