@@ -1,7 +1,7 @@
 <template>
   <div class="home-contianer">
     <div>
-      <div class="order-title">
+      <!-- <div class="order-title">
         <h2>快捷菜单</h2>
       </div>
       <div data-v-542f4644  style="padding: 15px; background: white;display: flex;
@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="order-title">
         <h2>数量统计</h2>
       </div>
@@ -278,7 +278,7 @@
     },
     created() {
       this.getDate();
-      this.getDesktopMenu();
+      //this.getDesktopMenu();
       this.getTopNumber();
       this.getTopProcessNumber();
       this.getVersionInfo();
