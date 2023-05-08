@@ -77,9 +77,9 @@
 (dev_run.bat如果闪退，请使用cmd切换至 ../iMES.WebApi目录下执行dotnet run看异常信息)
 如从没执行过npm install命令，使用cmd命令切换至前端Vue项目../iMES.Vue路径下,执行npm install命令
 - 2、启动前端项目：前端Vue项目路径 ../iMES.Vue ，  找到 run.bat命令点击启动 。
--  （1）(run.bat如果闪退,说明环境没配置好，请使用cmd切换至 ../iMES.Vue目录下执行npm run dev看异常信息)
--  （2）使用cmd命令切换到../iMES.Vue目录下执行npm cache clear --force或者安装node.js版本14.15.1
--  （3）输入http://localhost:8080访问（本地超级管理员帐号：admin 密码:123456）
+-  （1）(run.bat如果闪退,说明环境没配置好，请使用cmd切换至 ../iMES.Vue目录下执行npm run serve看异常信息)
+-  （2）使用cmd命令切换到../iMES.Vue目录下执行npm cache clear --force或者安装node.js版本16.17.1
+-  （3）输入http://localhost:9990访问（本地超级管理员帐号：admin 密码:123456）
 
 ## 🎀捐赠支持
 ```
