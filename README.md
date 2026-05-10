@@ -19,7 +19,7 @@
 ## 商业版亮点：
 - 生产管理，模版打印，Excel模版导出，自定义实体扩展，移动端精美设计，大屏设计等功能。并且提供技术支持
 - 
-## 商业版MOM演示地址：https://mom.625sc.com
+## 商业版MOM系统演示地址：https://mom.625sc.com
 ![输入图片说明](https://wechat.625sc.com:8891/Image/10.png)
 
 ## 框架预览
@@ -30,6 +30,7 @@
  - 官方网站：https://www.625sc.com
  - 介绍视频：https://www.bilibili.com/video/BV1KY4y1d7EC/
  - 文档介绍：https://www.625sc.com/imes/324.html
+ - 商业版MOM系统演示地址：https://mom.625sc.com
  - 商业版演示地址：https://imes.625sc.com
  - 开源版演示地址：https://imesopen.625sc.com
  - 帐号：admin密码：123456
